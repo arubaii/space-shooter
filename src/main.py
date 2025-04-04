@@ -194,7 +194,7 @@ class Button():
 
 # SETUP ____________________________________________________________________________________________________________________
 
-BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 pg.init()
 DISPLAY_WIDTH = 1280
